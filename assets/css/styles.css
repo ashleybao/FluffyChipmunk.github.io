@@ -63,10 +63,11 @@ p {
 }
 
 .div-left {
-  background-color: red;
-  display: table-cell;
+  background-color: rgb(255,0,0);
   vertical-align: middle;
   margin-bottom: 1rem;
+  /*display: table-cell;*/
+  height: 25%;
 }
 
 #about {
@@ -75,12 +76,25 @@ p {
 
 #table-of-contents {
   margin-top: -1rem;
+  font-size: large;
 }
 
 #awards {
   background-color: rgb(129,221,129);
-  display: block;
-  margin-top: 75%;
+  /*display: inline-block;*/
+  margin-top: 25%;
   color: white;
+  /*margin-left: 25%;*/
+  /*margin-right: -25%;*/
+  /*padding: 20%;*/
+  height: initial;
+}
+
+#pink-block-content {
+  padding-top: 10%;
+}
+
+#about {
+  font-size: 1.2rem;
 }
 
