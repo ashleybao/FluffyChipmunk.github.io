@@ -1,0 +1,86 @@
+.container {
+}
+
+.col {
+  margin-top: 1.5rem;
+  margin-left: .75rem;
+  margin-right: .75rem;
+  padding: 3%;
+}
+
+h1 {
+  font-family: Courier New;
+  text-align: center;
+  /*margin-top: 1rem;*/
+  font-weight: italic;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  font-family: Courier New;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #e3e0e0;
+}
+
+#col-left {
+  /*background-color: rgb(255,191,191);*/
+}
+
+#col-right {
+  background-color: white;
+}
+
+a {
+  text-decoration: underline;
+}
+
+p {
+  margin-top: 0;
+  /*margin-bottom: 1rem;*/
+}
+
+.work {
+  padding: .5rem;
+  margin: 1rem;
+  background-color: rgb(78,77,77);
+  color: white;
+}
+
+.table-of-contents {
+  color: black;
+}
+
+.link.to.work {
+  color: white;
+  margin-left: 1rem;
+  word-wrap: break-word;
+}
+
+.div-left {
+  background-color: red;
+  display: table-cell;
+  vertical-align: middle;
+  margin-bottom: 1rem;
+}
+
+#about {
+  padding: .5rem;
+}
+
+#table-of-contents {
+  margin-top: -1rem;
+}
+
+#awards {
+  background-color: rgb(129,221,129);
+  display: block;
+  margin-top: 75%;
+  color: white;
+}
+
